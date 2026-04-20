@@ -2,8 +2,8 @@
 Your project's title
 
 ## Student Information
-**Student number:** Your student number <br>
-**Student Name:** Your full name
+**Student number:** ST10528641 <br>
+**Student Name:** Tshilidzi Mulanga Rambau
 
 ## Project Overview
 
@@ -19,7 +19,7 @@ Pull this from your project proposal.
 
 ## Sitemap
 
-![Website Sitemap](img/mysitemap.png) <br> (The one here is only an example, include your own site map)
+![Website Sitemap](images/bakery_sitemap.png) <br> 
 
 ## References
 
