@@ -1,5 +1,5 @@
 # Project Title
-Your project's title
+The Bakery & Cafe
 
 ## Student Information
 **Student number:** ST10528641 <br>
