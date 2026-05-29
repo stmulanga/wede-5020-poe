@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
     <title>Home - The Bakery & Cafe</title>
 <!-- The header content shows the logo and navigation links of the website -->
 </head>
@@ -12,13 +13,13 @@
 <table width="100%">
     <tr>
         <td>
-        <img src="images/logo.png" alt="logo image of the bakery">
+        <img src="images/logo.png" alt="logo image of the bakery" width="200" height="150">
         </td>
         <td align="right">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact Us</a>
+            <button id="home-button"><a href="index.html">Home</a></button>
+            <button id="about-button"><a href="about.html">About Us</a></button>
+            <button id="menu-button"><a href="menu.html">Menu</a></button>
+            <button id="contact-button"><a href="contact.html">Contact Us</a></button>
         </td>
     </tr>
 </table>
@@ -36,15 +37,15 @@
      and baked to perfection- every last crumb has soul.</p>
     <!--Below is a list of some of our products with images-->
     <h2>Our Products</h2>
-    <img src="images/bread.jpg" width="200" height="200" alt ="bread image of the bakery">
-    <p>Bread</p>
+    <img src="images/bread.jpg" width="400" height="200" alt ="bread image of the bakery">
+    <h3>Bread</h3>
     <p>From buns to fresh-baked loaves, cut or uncut, we have all kinds of bread.</p>
     <img src="images/Chocolate-cake.png" width="200" height="200" alt="cakes image of the bakery">
-    <p>Cakes</p>
+    <h3>Cakes</h3>
     <p>Our cakes are made with the finest ingredients and baked to perfection.
        We have a variety of flavours to choose from, including chocolate, vanilla, and red velvet.</p>
-    <img src="images/coffe-day.png" width="200" height="200" alt="coffee image of the bakery">
-    <p>Coffee</p>
+    <img src="images/coffe-day.png" width="350" height="200" alt="coffee image of the bakery">
+    <h3>Coffee</h3>
     <p>Enjoy our freshly brewed coffee in a cozy atmosphere.</p><br><br>
     <h2>Special of the week:</h2>
     <img src="images/slices.png" width="200" height="200" alt="slices image of cakes">
@@ -52,7 +53,7 @@
 
 
         <!--a link to the rest of our menu-->
-    <p>Interested in what you see? Check out our <button><a href="menu.html">menu</a></button> page for more!</p>
+    <p>Interested in what you see? Check out our <button id="menu-button"><a href="menu.html">menu</a></button> page for more!</p>
 
 </main>
 <footer>

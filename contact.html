@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
     <title>Contact Us - The Bakery & Cafe</title>
 </head>
 <body>
@@ -13,10 +15,10 @@
         <img src="images/logo.png" alt="logo image of the bakery">
         </td>
         <td align="right">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact Us</a>
+           <button id="home-button"><a href="index.html">Home</a></button>
+            <button id="about-button"><a href="about.html">About Us</a></button>
+            <button id="menu-button"><a href="menu.html">Menu</a></button>
+            <button id="contact-button"><a href="contact.html">Contact Us</a></button>
         </td>
     </tr>
 </table>
@@ -49,7 +51,7 @@
     <label>Your Message:</label><br>
     <textarea name="message" rows="5" cols="40"></textarea><br><br>
 
-    <input type="submit" value="Send Message">
+    <input type="submit" value="Send Message" id="submit-message">
 
     </form><br><br>
     <!-- Our Locations -->
