@@ -1,0 +1,85 @@
+body {
+    background-color: burlywood;
+    color: brown;
+    text-align: center;
+}
+#menu-button, #home-button, #about-button, #contact-button {
+    display:inline-block;
+    color: burlywood;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    background-color:brown;
+    color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+/* hover effect */
+#menu-button:hover, #home-button:hover, #about-button:hover, #contact-button:hover, #contact-button-about:hover {
+    background-color: burlywood;
+    color: brown;
+    text-decoration: none;
+}
+#menu-button a, #home-button a, #about-button a, #contact-button a, #contact-button-about a {
+    text-decoration: none;
+    color:burlywood;
+
+}
+#menu-button:hover a, #home-button:hover a, #about-button:hover a, #contact-button:hover a, #contact-button-about:hover a {
+    background-color: burlywood;
+    color: brown;
+    text-decoration: none;
+}
+#contact-button-about {
+    display:inline-block;
+    color: burlywood;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background-color:brown;
+    color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#doffins-button, #cakes-button, #bread-button, #drinks-button, #submit-message {
+    display:inline-block;
+    color: burlywood;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-color:brown;
+    color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#doffins-button:hover, #cakes-button:hover, #bread-button:hover, #drinks-button:hover, #submit-message:hover {
+    background-color: burlywood;
+    color: brown;
+    text-decoration: none;
+}
+#doffins-button a, #cakes-button a, #bread-button a, #drinks-button a, #submit-message a {
+    text-decoration: none;
+    color:burlywood;
+
+}
+#doffins-button:hover a, #cakes-button:hover a, #bread-button:hover a, #drinks-button:hover a, #submit-message:hover a {
+    background-color: burlywood;
+    color: brown;
+    text-decoration: none;
+}
+#facebook-button, #instagram-button, #twitter-button {
+    display:inline-block;
+    color: burlywood;
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    background-color:brown;
+    color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#facebook-button a, #instagram-button a, #twitter-button a {
+    text-decoration: none;
+    color:burlywood;
+
+}

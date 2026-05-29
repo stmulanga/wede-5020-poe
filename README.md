@@ -32,4 +32,17 @@ Week 4: Hand in Part 1
 
 ## References
 
-Ensure that all sources used in your assignment are cited and referenced using the Harvard referencing style.
+Afro-Broer, 2009. Beverage Menu [pdf]:
+Available at:
+<https://www.afroboer.co.za/_files/ugd/d0b0b7_710026a6fd0a4bae8657dfc77efceeb9.
+pdf> [Accessed 13 April 2026]
+The Bakery & Café, 2021. About Us – The Bakery & Café [online] Available at: <
+https://thebakeryandcafe.co.za/about-us/> [Accessed 14 April 2026]
+The Bakery & Café, 2021. Home – The Bakery & Café [online] Available at:
+<https://thebakeryandcafe.co.za> [Accessed 14 April 2026]
+Charly’s Bakery, 2014. Cake Slices| Charly’s Bakery [online] Available at: <
+https://charlysbakery.co.za/product-category/deli-counter-items/cake-slices/>
+[Accessed 17 April 2026]
+HotBake, 2010. Donuts [online] Available at:
+<https://hotbake.co.za/collections/donuts> [Accessed 27 April 2026]
+The Bakery & Café, 2021. Menu [pdf] Available at: <https://thebakeryandcafe.co.za/wpcontent/uploads/2025/09/Food-Menu-Email.pdf> [Accessed 24 May 2026]
