@@ -67,3 +67,19 @@ body {
     color: brown;
     text-decoration: none;
 }
+#facebook-button, #instagram-button, #twitter-button {
+    display:inline-block;
+    color: burlywood;
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    background-color:brown;
+    color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#facebook-button a, #instagram-button a, #twitter-button a {
+    text-decoration: none;
+    color:burlywood;
+
+}
