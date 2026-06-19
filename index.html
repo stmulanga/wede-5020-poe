@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="images/logo.png">
     <title>Home - The Bakery & Cafe</title>
 <!-- The header content shows the logo and navigation links of the website -->
@@ -15,16 +15,30 @@
         <td>
         <img src="images/logo.png" alt="logo image of the bakery" width="150" height="100">
         </td>
+        
         <td align="right">
             <button id="home-button"><a href="index.html">Home</a></button>
             <button id="about-button"><a href="about.html">About Us</a></button>
-            <button id="menu-button"><a href="menu.html">Menu</a></button>
+            <div class="dropdown">
+    <button id="menu-button"><a href="menu.html">Menu</a></button>
+
+    <div class="dropdown-content" align="center">
+        <a href="bread.html">Bread</a>
+        <a href="cakes.html">Cakes</a>
+        <a href="doffins.html">Doffins</a>
+        <a href="drinks.html">Drinks</a>
+    </div>
+</div>
+            
             <button id="contact-button"><a href="contact.html">Contact Us</a></button>
+            <button id="order-button"><a href="order.html">Order</a></button>
         </td>
     </tr>
 </table>
-
 </header>
+<input type="text" id="searchBox" placeholder="Search products..." 
+       oninput="filterProducts()">
+<br>
 <main>
     <!--This is a small description of the bakery and cafe -->
     <h1 align="center">The Bakery & Cafe</h1>

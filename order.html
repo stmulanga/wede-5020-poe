@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Order - The Bakery & Cafe</title>
+<!-- The header content shows the logo and navigation links of the website -->
+</head>
+<header>
+<table width="100%">
+    <tr>
+        <td>
+        <img src="images/logo.png" alt="logo image of the bakery" width="150" height="100">
+        </td>
+        
+        <td align="right">
+            <button id="home-button"><a href="index.html">Home</a></button>
+            <button id="about-button"><a href="about.html">About Us</a></button>
+            <div class="dropdown">
+    <button id="menu-button"><a href="menu.html">Menu</a></button>
+
+    <div class="dropdown-content" align="center">
+        <a href="bread.html">Bread</a>
+        <a href="cakes.html">Cakes</a>
+        <a href="doffins.html">Doffins</a>
+        <a href="drinks.html">Drinks</a>
+    </div>
+</div>
+            
+            <button id="contact-button"><a href="contact.html">Contact Us</a></button>
+            <button id="order-button"><a href="order.html">Order</a></button>
+        </td>
+    </tr>
+</table>
+</header>
+<body>
+    <form id="enquiryForm" novalidate>
+ 
+      <label>Your Name:</label><br>
+      <input type="text" id="enqName"><br>
+      <span class="error-msg" id="enqNameErr"></span><br>
+ 
+      <label>Your Email:</label><br>
+      <input type="email" id="enqEmail"><br>
+      <span class="error-msg" id="enqEmailErr"></span><br>
+ 
+      <label>Phone Number:</label><br>
+      <input type="text" id="enqPhone"><br>
+      <span class="error-msg" id="enqPhoneErr"></span><br>
+ 
+      <label>Select Category:</label><br>
+      <select id="enqCategory" onchange="updateProductOptions()">
+        <option value="">-- Choose a category --</option>
+        <option value="bread">Bread</option>
+        <option value="cakes">Cakes</option>
+        <option value="doffins">Donuts & Muffins</option>
+        <option value="drinks">Drinks</option>
+      </select><br>
+     <span class="error-msg" id="enqCatErr"></span><br>
+ 
+     <label>Select Product:</label><br>
+     <select id="enqProduct">
+       <option value="">-- Choose a category first --</option>
+     </select><br>
+     <span class="error-msg" id="enqProdErr"></span><br>
+ 
+     <label>Quantity:</label><br>
+     <input type="number" id="enqQty" min="1" max="100" value="1"><br>
+     <span class="error-msg" id="enqQtyErr"></span><br>
+ 
+      <label>Special Requests (optional):</label><br>
+      <textarea id="enqNotes" rows="3" cols="40"></textarea><br>
+ 
+      <button type="button" onclick="submitEnquiry()">Get Quote</button>
+    </form>
+    <div id="enquiryResponse" style="display:none;"></div>
+    <script src="js/order.js"></script>
+</body>
+</html>

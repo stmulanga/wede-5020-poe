@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="images/logo.png">
     <title>Contact Us - The Bakery & Cafe</title>
 </head>
 <body>
+    
 <header>
 <table width="100%">
     <tr>
@@ -17,8 +18,18 @@
         <td align="right">
            <button id="home-button"><a href="index.html">Home</a></button>
             <button id="about-button"><a href="about.html">About Us</a></button>
-            <button id="menu-button"><a href="menu.html">Menu</a></button>
+            <div class="dropdown">
+    <button id="menu-button"><a href="menu.html">Menu</a></button>
+
+    <div class="dropdown-content">
+        <a href="bread.html">Bread</a>
+        <a href="cakes.html">Cakes</a>
+        <a href="doffins.html">Doffins</a>
+        <a href="drinks.html">Drinks</a>
+    </div>
+</div>
             <button id="contact-button"><a href="contact.html">Contact Us</a></button>
+            <button id="order-button"><a href="order.html">Order</a></button>
         </td>
     </tr>
 </table>
@@ -37,21 +48,29 @@
     <p>Alternatively, you can fill out the contact form below, and we'll get back to you as soon as possible.</p>
     
     <!-- Contact Form -->
-    <form>
+    <form id="contactForm" novalidate>
 
     <label>Your Name:</label><br>
-    <input type="text" name="name"><br><br>
+    <input type="text"  id="contactName"  name="name"><br>
+    <span class="error-msg" id="nameErr"></span>
+    <br>
 
     <label>Your Email:</label><br>
-    <input type="email" name="email"><br><br>
+    <input type="email" id="contactEmail" name="email"><br>
+    <span class="error-msg" id="emailErr"></span>
+    <br>
 
     <label>Your Contact Details:</label><br>
-    <input type="contact" name="contact"><br><br>
+    <input type="text" id="contactContact" name="contact"><br>
+    <span class="error-msg" id="contactErr"></span>
+    <br>
 
     <label>Your Message:</label><br>
-    <textarea name="message" rows="5" cols="40"></textarea><br><br>
+    <textarea id="contactMessage" name="message" rows="5" cols="40"></textarea><br>
+    <span class="error-msg" id="msgErr"></span>
+    <br>
 
-    <input type="submit" value="Send Message" id="submit-message">
+    <button type="button" onclick="submitContactForm()">Send Message</button>
 
     </form><br><br>
     <!-- Our Locations -->
@@ -98,6 +117,7 @@
     <p align="center">copyright© 2026 The Bakery & Cafe</p>
     
 
-</footer>    
+</footer> 
+<script src="js/contact.js"></script>   
 </body>
 </html>
